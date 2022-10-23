@@ -4,55 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shubham_Portfolio</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://kit.fontawesome.com/32f181d7c4.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img class="logo" src="./images/imageslogo.png" alt="" />
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Statistics</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <div id="first">
-          <div class="header-text">
-            <h1>Hi, my name is <span>Shubham Muddamwar</span></h1>
-            <h1 style="margin-top: 10px; font-size: 25px; color: #de8383e2">
-              Full Stack Web Developer
-            </h1>
-            <div style="margin-top: 30px">
-              <p style="font-size: 18px">
-                Passionate Full Stack Web Developer with a specialization
-                <br />in MERN stack. Skilled, collaborative and attentive
-                developer<br />
-                with a drive to develop the most relevant products. Always
-                looking <br />
-                forward to learning something new to strengthen skills learned.
-              </p>
-            </div>
-            <div style="margin-top: 15px;">
-                <a href="https://github.com/Shubham18598"><i class="fa fa-github" style="font-size:35px;color:red"></i></a>
-                <a href="https://www.linkedin.com/in/shubham-muddamwar/"><i class="fa fa-linkedin-square" style="font-size:35px;color:red"></i></a>
-            </div>
-          </div>
-          <div class="header-profile">
-            <img src="./images/profile.png" alt="" />
-          </div>
+    <body>
+      <!-- navbar -->
+      <header>
+        <a href="index.html" class="logo">SM</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tech">Skills</a></li>
+            <li><a href="#skills">TechStack</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+      </header>
+
+      <!-- Home -->
+      <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/Shubham18598" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/shubham-muddamwar/" target="_blank"><i class='bx bxl-linkedin' ></i></a>  
         </div>
-      </div>
-    </div>
-    <div>
-        <div>
-            <div></div>
-            <div></div>
+        <div class="home-img">
+            <img src="./images/profile.png"  alt="">
         </div>
-    </div>
-  </body>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Shubham Muddamwar</h1>
+            <h2><b>Full Stack Web Developer</b></h2>
+            <p>I love building websites. <br> Passionate about developing creative & user friendly websites</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about" id="about">
+          <div class="heading">
+              <h2>About Me</h2>
+          </div>
+          
+          <div class="about-container">
+              <div class="about-img">
+                  <img src="images/coding.gif" style="margin-top:-20px" alt="">
+              </div>
+              <div class="about-text">
+                  <h3>Passionate Full Stack Web Developer with a specialization
+                    in MERN stack. Skilled, collaborative and attentive developer
+                    with a drive to develop the most relevant products. Always
+                    looking forward to learning something new to strengthen skills learned.</h3>
+                  <div class="information">
+                      <div class="info-box">
+                          <i class='bx bxs-user' ></i>
+                          <span>Shubham Muddamwar</span>
+                      </div>
+                      <div class="info-box">
+                          <i class='bx bxs-phone' ></i>
+                          <span>+91 9657004961</span>
+                      </div>
+                      <div class="info-box">
+                          <i class='bx bxs-envelope' ></i>
+                          <span>muddamwarshubham98@gmail.com</span>
+                      </div>
+                  </div>
+                  <a href="#" value="download" target="_blank" class="btn">Resume</a>
+              </div>
+          </div>
+      </section>
+    </body>
 </html>
