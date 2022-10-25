@@ -108,11 +108,13 @@ header.shadow {
 .home-img img {
   width: 100%;
   transition: 2s;
-  border-radius: 50%; width:300px ; margin-left: 60px;
+  /* border-radius: 50%; */
+   width:300px ;
+    margin-left: 60px;
 }
-.home-img img:hover {
+/* .home-img img:hover {
   border-radius: 30px;
-}
+} */
 .home-text span {
   font-size: var(--medium-font);
   font-weight: 500;
@@ -144,13 +146,16 @@ header.shadow {
   }
   .btn {
     display: inline-block;
-    background: var(--main-color);
+    background: hsl(177, 82%, 58%);
     color: #fff;
     padding: 0.7rem 1.3rem;
     border-radius: 0.5rem;
+    margin-top: 1rem;
   }
   .btn:hover {
-    background: var(--hover);
+    background: white;
+    color: blue;
+    border: 1px solid black;
   }
 
 
@@ -158,7 +163,7 @@ header.shadow {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 
 .about-img img {
@@ -228,7 +233,7 @@ header.shadow {
   }
   #box {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 45px;
     margin-bottom: 20px;
   }
@@ -247,14 +252,14 @@ header.shadow {
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
-    background-color: rgb(64,112,244);
-    border: 1px solid rgb(64,112,244);
+    background-color: hsl(177, 82%, 58%);
+    border: 1px solid hsl(177, 82%, 58%);
     margin-top: 9px;
   }
   .button:hover{
     background-color: white;
     color: rgb(64,112,244);
-    border: 1px solid rgb(64,112,244);
+    border: 1px solid black;
     cursor: pointer;
   }
   .clickMe{
@@ -317,8 +322,8 @@ header.shadow {
       border-radius: 10%;
     }
     #box {
-      grid-template-columns: repeat(1,1fr);
-      gap: 45px;
+      grid-template-columns: repeat(2,1fr);
+      gap: 30px;
       }
   
       #contact12{
@@ -361,6 +366,10 @@ header.shadow {
       section {
         padding: 50px 4%;
       }
+      #box {
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        }
     }
     @media (max-width: 881px) {
       :root {
@@ -449,4 +458,11 @@ header.shadow {
         margin-left: 25%;
       }
       
+    }
+
+    @media (max-width: 632px) {
+      #box {
+        grid-template-columns: repeat(1,1fr);
+        
+        }
     }
