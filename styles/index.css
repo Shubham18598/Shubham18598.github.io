@@ -327,6 +327,9 @@ header.shadow {
       }
   
       #contact12{
+        
+        width: 80%;
+        margin: auto;
         display: block;
       }
       #contact12 img{
