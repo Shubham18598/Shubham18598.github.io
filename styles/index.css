@@ -476,3 +476,11 @@ header.shadow {
         
         }
     }
+    .card1 {
+      margin: auto;
+     border: 1px solid rgb(180, 174, 174);
+    }
+    .cardcal{
+  width: 100%;
+  padding: 10px;
+}
