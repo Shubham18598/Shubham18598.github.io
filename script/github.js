@@ -1,4 +1,4 @@
-GitHubCalendar(".calendar", "Shubham18598", { responsive: true });
+// GitHubCalendar(".calendar", "Shubham18598", { responsive: true });
         
 // Use a proxy
 GitHubCalendar(".calendar", "Shubham18598", {
