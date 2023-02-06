@@ -208,7 +208,7 @@ header.shadow {
   margin-left: 40px;
 }
 #SkillsContainer img{
-  width: 60%;
+  width: 100px;
   height: 100px;
   border-radius: 10%;
   transition: transform .2s;
@@ -315,10 +315,11 @@ header.shadow {
       grid-row: 100px;
       gap: 20px;
       margin-top: 60px  ;
+      margin-left: 80px;
     }
     #SkillsContainer img{
-      width: 70%;
-      height: 100px;
+      width: 50%;
+      height: 80px;
       border-radius: 10%;
     }
     #box {
@@ -345,6 +346,7 @@ header.shadow {
       grid-row: 100px;
       gap: 20px;
       margin-top: 60px  ;
+      margin-right: 20px;
     }
     #SkillsContainer img{
       width: 70%;
@@ -354,6 +356,11 @@ header.shadow {
     .body{
       width: 100%;
     }
+    .about-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+  }
   }
   
   
