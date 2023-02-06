@@ -205,7 +205,10 @@ header.shadow {
   gap: 20px;
   /* border: 1px solid red; */
   margin-top: 60px  ;
-  margin-left: 40px;
+
+}
+#SkillsContainer div{
+  margin: auto;
 }
 #SkillsContainer img{
   width: 100px;
@@ -304,8 +307,12 @@ header.shadow {
 
 
 
-
-
+.co{
+  color: black;
+}
+.co:hover{
+  color: rgb(222, 23, 23);
+}
 
 
   @media only screen and (max-width: 800px){
@@ -315,10 +322,10 @@ header.shadow {
       grid-row: 100px;
       gap: 20px;
       margin-top: 60px  ;
-      margin-left: 80px;
+      margin-left: 40px;
     }
     #SkillsContainer img{
-      width: 50%;
+      width: 80%;
       height: 80px;
       border-radius: 10%;
     }
@@ -346,7 +353,7 @@ header.shadow {
       grid-row: 100px;
       gap: 20px;
       margin-top: 60px  ;
-      margin-right: 20px;
+      /* margin-right: 20px; */
     }
     #SkillsContainer img{
       width: 70%;
